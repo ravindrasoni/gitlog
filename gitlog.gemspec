@@ -8,16 +8,16 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ravindra Soni"]
   spec.email         = ["soni@nickelfox.com"]
 
-  spec.summary       = %q{Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
-  spec.homepage      = "http://nickelfox.com"
+  spec.summary       = %q{Generate formatted logs from git commits.}
+  spec.description   = %q{Generate formatted logs from git commits.}
+  spec.homepage      = "http://github.com/ravindrasoni/gitlog"
   spec.license       = "MIT"
 
-  spec.metadata["allowed_push_host"] = "http://nickelfox.com"
+  # spec.metadata["allowed_push_host"] = "http://nickelfox.com"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "http://nickelfox.com"
-  spec.metadata["changelog_uri"] = "http://nickelfox.com"
+  spec.metadata["source_code_uri"] = "http://github.com/ravindrasoni/gitlog"
+  spec.metadata["changelog_uri"] = "http://github.com/ravindrasoni/gitlog"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
