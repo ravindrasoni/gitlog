@@ -220,7 +220,7 @@ module GitLog
       if author.nil?
         author = author()
       end
-      print_log("log_style", log_style)
+      # print_log("log_style", log_style)
   	  git_logs = git_log_on_date(specific_date, author, current_branch_only)
   	  logs = git_formatted_log(git_logs,log_style)
   	  puts logs
